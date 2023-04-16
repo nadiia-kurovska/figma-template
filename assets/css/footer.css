@@ -1,0 +1,24 @@
+.footer{
+    background-color: #34547a;
+    padding: 45px 10px;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.footer-title, .footer-text{
+    color: #ffffff;
+}
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+.footer-text{
+    font-size: 0.9rem;
+}
+.vk-logo{
+    width: 44px;
+    height: 40px;
+}
