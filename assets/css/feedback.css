@@ -1,0 +1,44 @@
+.feedback-screen {
+    padding: 110px 10px;
+    background-color: var(--bg-color);
+  }
+  
+  .feedback-article {
+    margin: 0 auto;
+  }
+
+  .feedback-form{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .client-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+    gap: 1.4rem;
+  }
+
+  .small-input,
+  .message{
+    padding: 1.2rem;
+    border: 0;
+  } 
+  .feedback-btn{
+    align-self: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    .feedback-article,
+    .feedback-form {
+      width: 50%;
+    }
+    .client-info{
+        flex-direction: row;
+        align-content: space-between;
+    }
+    .small-input{
+        width: 45%;
+    }
+  }
