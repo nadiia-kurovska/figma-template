@@ -1,24 +1,40 @@
 .footer{
-    background-color: #34547a;
+    background-color: var(--accent-color);
     padding: 45px 10px;
 }
 .footer-block{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-  }
-  
+}
+.text-block{
+    display: flex;
+    flex-direction: column;
+}  
+
 .footer-title, .footer-text{
     color: #ffffff;
+    margin-bottom: 0.9rem;
+    align-self: center;
 }
 .footer-title {
     font-size: 1.5rem;
-    margin-bottom: 1.4rem;
 }
 .footer-text{
     font-size: 0.9rem;
 }
+
 .vk-logo{
     width: 44px;
     height: 40px;
+}
+
+@media screen and (min-width: 425px) {
+    .footer-block{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-title, .footer-text{
+        align-self: flex-start;
+    }
 }
